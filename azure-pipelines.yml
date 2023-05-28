@@ -8,7 +8,7 @@ trigger:
 
 	pool:
 	  name: Quidditch
-	  demands:
+	demands:
    - agent.name -equals snitch
 
 steps:
