@@ -4,11 +4,11 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- master
 
-	pool:
-	  name: Quidditch
-	demands:
+pool:
+  name: Quidditch
+  demands:
    - agent.name -equals snitch
 
 steps:
